@@ -1,8 +1,7 @@
-#include <Servo.h>  // on inclut la bibliothèque pour piloter un servomoteur
 #include <ESP8266WiFi.h>
 
 const char* ssid = "Livebox-453A"; 
-const char* password = "";
+const char* password = ""; // le mot de passe de votre box
 int servoPos = 0;
 
 WiFiServer server(80);
